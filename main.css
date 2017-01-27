@@ -1,0 +1,291 @@
+html {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/****SCREEN-0*****/
+nav.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0 ,0 ,0 , 0.2);
+}
+nav.header ul {
+  display: flex;
+  list-style: none;
+}
+nav.header ul li + li {
+  margin-left: 10px;
+}
+nav.header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.divider {
+  flex-grow: 1;
+}
+.header_tel{
+  background-image: url(img/tel_big_icon.png);
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+.screen-0__content h4{
+  color: red;
+}
+.screen-0__content__vabim{
+  margin-bottom:-15px; 
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 7px;
+  color: #ec453a;
+}
+.screen-0__content__gorenko{
+  margin-top: -15px;
+  margin-bottom: 5px;
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 7px;
+  color: #cd2f3e;
+}
+.screen-0__content p{
+  font-size: 15px;
+}
+
+.screen-0__content_in{
+  width: 100px;
+  height: 100px;
+  background-image: url(linkedin_icon.png);
+  background-repeat: no-repeat;
+  bottom:0;
+  right: 0;
+}
+.screen-0 {
+  display: flex;
+  position: relative;
+}
+.screen-0 .col {
+  flex-grow: 1;
+}
+.screen-0__image {
+  background-image: url(img/brand_bg.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 50vh;
+}
+.screen-0__content { 
+  padding-top: 205px;
+  padding-left: 130px;
+}
+.screen-0_right_content{
+  width: 64px;
+  height: 64px;
+}
+
+.screen-0_right_content_li{
+  background-image: url(img/arrow_link.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 100px;
+  padding-left: 70px;
+}
+nav.screen-0_right_content ul li a{
+  text-decoration: none;
+}
+nav.screen-0_right_content ul {
+  list-style: none;
+}
+/****SCREEN-1*****/
+.screen-1{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.border{
+  border:1px solid grey;
+}
+.screen-1_footer,
+.screen-1_header{
+  height: 250px;
+  display: flex;
+}
+.screen-1_content{
+  display: flex;
+  flex-grow: 1 ;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.screen-1_header p{
+  font-size: 40px;
+  font-weight: bold;
+  align-content: center ;
+  
+}
+.screen-1_content_1,
+.screen-1_content_2{
+  padding: 50px;
+}
+.screen-1_content_4,
+.screen-1_content_5{
+  padding: 100px;
+}
+
+.screen-1_content_3,
+.screen-1_content_6{
+  flex-grow: 1;
+}
+.creen-1_content_top{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+}
+.screen-1_content_bottom{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+.screen-1_content_1 p{
+  font-size: 12px;
+}
+.screen-1_content_2 p{
+  font-size: 12px;
+}
+.screen-1_content_3 p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.screen-1_footer{
+  background-image: url(img/photo_gorenko.png);
+  background-repeat: no-repeat;
+}
+/****SCREEN-2*****/
+.screen-2 .col {
+  position: absolute;
+  color:#fff;
+}
+.screen-2__top {
+  position: relative;
+  height: 720px;
+}
+.screen-2__top--title {
+  z-index: 3;
+  height: inherit;
+  padding-top: 300px;
+  padding-left: 170px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 60px;
+  letter-spacing: 10px;
+}
+.screen-2__top--left {
+  width: 500px;
+  height: inherit;
+  background-image: url(img/services_bg1.jpg);
+  z-index: 1;
+}
+.screen-2__top--right {
+  width: 800px;
+  height: 650px;
+  background: #5b2333;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
+}
+.screen-2__top--right__text{
+  padding-top: 13vh;
+  padding-left:13vh;
+}
+.screen-2__top--right__text li{
+  background-image: url(img/red_cheked_icon.png) ;
+  background-repeat:no-repeat;
+  padding-left: 30px;
+  line-height:35px;
+  list-style: none;
+  font-size:14px;
+}
+.screen-2__bottom {
+  position: relative;
+  height: 720px;
+}
+.screen-2__bottom .col{
+    position: absolute;
+}
+
+.screen-2__bottom--title{
+    position: absolute;
+    z-index: 3;
+    width: 400px;
+    height: 500px;
+    right: 3vh;
+    top:20vh;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 60px;
+    letter-spacing: 10px;
+}
+
+.screen-2__bottom--left {
+    position: absolute;
+    z-index: 2;
+    width: 800px;
+    height: 650px;
+    background-color: #3b1f2b;
+}
+ .screen-2__bottom--left--text{
+    padding-top: 10vh;
+    padding-left:5vh;
+ }
+.screen-2__bottom--left--text li{
+  background-image: url(img/orange_cheked_icon.png);
+  background-repeat:no-repeat;
+  padding-left: 30px;
+  list-style: none;
+  font-size: 16px;
+  line-height: 40px;
+} 
+
+.screen-2__bottom--right  {
+    right: 0;
+    top:0;
+    z-index: 1;
+    width: 500px;
+    height: inherit;
+    background-image:  url(img/services_bg2.jpg);
+}
+
+/****SCREEN-7*****/
+.bottom-round {
+  position: relative;
+  background: #fff;
+  height: 200px;
+  border-radius: 0 0 100% 100%;
+  z-index: 1;
+}
+/******FOOTER******/
+.footer {
+  color: white;
+  padding-top: 200px;
+  margin-top: -100px;
+  height: 200px;
+  background: #000;
+  z-index: 2;
+}
+
+.footer input.control {
+  color: white;
+}
+
+input.control {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 1px solid red;
+}

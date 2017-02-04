@@ -79,7 +79,7 @@ nav.header ul li a {
   width: 50vh;
 }
 .screen-0__content { 
-  padding-top: 205px;
+  padding-top: 150px;
   padding-left: 130px;
 }
 .screen-0_right_content{
@@ -111,33 +111,31 @@ nav.screen-0_right_content ul {
 }
 .screen-1_footer,
 .screen-1_header{
-  height: 250px;
   display: flex;
+  margin-top:40px;
 }
 .screen-1_content{
   display: flex;
   flex-grow: 1 ;
-  flex-wrap: wrap;
   flex-direction: column;
 }
 .screen-1_header p{
-  font-size: 40px;
-  font-weight: bold;
-  align-content: center ;
-  
+  font-size: 48px;
+  margin: auto;
+  margin-bottom:100px;
 }
+
 .screen-1_content_1,
-.screen-1_content_2{
-  padding: 50px;
-}
+.screen-1_content_2,
 .screen-1_content_4,
 .screen-1_content_5{
-  padding: 100px;
+  padding: 50px;
 }
 
 .screen-1_content_3,
 .screen-1_content_6{
   flex-grow: 1;
+  font-weight: bold;
 }
 .creen-1_content_top{
   display: flex;
@@ -149,20 +147,47 @@ nav.screen-0_right_content ul {
   flex-grow: 1;
   flex-direction: row;
 }
-
-.screen-1_content_1 p{
-  font-size: 12px;
+.screen-1_content_1 p,
+.screen-1_content_2 p,
+.screen-1_content_4 p,
+.screen-1_content_5 p{
+  font-size: 14px;
 }
-.screen-1_content_2 p{
-  font-size: 12px;
-}
-.screen-1_content_3 p {
-  font-size: 20px;
+.screen-1_content_3 p,
+.screen-1_content_6 p {
+  font-size: 18px;
   font-weight: bold;
+  padding: 50px;
+  margin: 0;
+}
+.screen-1_content_3 p{
+  background-image: url(img/quote_icon.png);
+  background-repeat: no-repeat;
+}
+.screen-1_content_4{
+  background-image: url(img/startupstart_logo.png);
+  background-repeat: no-repeat;
+}
+.screen-1_content_5{
+  background-image: url(img/startuknu_logo.png);
+  background-repeat: no-repeat;
+}
+.screen-1_content_6{
+  background-image: url(img/unohabitat_logo.png);
+  background-repeat: no-repeat;
 }
 .screen-1_footer{
+  margin: 15px;
   background-image: url(img/photo_gorenko.png);
   background-repeat: no-repeat;
+}
+.screen-1_footer p {
+  margin-left: 100px;
+  margin-right: 500px;
+  padding-left: 50px;
+  background-image: url(img/quote_icon.png);
+  background-repeat: no-repeat;
+  height:100px;
 }
 /****SCREEN-2*****/
 .screen-2 .col {
@@ -206,9 +231,9 @@ nav.screen-0_right_content ul {
   background-image: url(img/red_cheked_icon.png) ;
   background-repeat:no-repeat;
   padding-left: 30px;
-  line-height:35px;
+  line-height:30px;
   list-style: none;
-  font-size:14px;
+  font-size: 14px;
 }
 .screen-2__bottom {
   position: relative;
@@ -239,16 +264,17 @@ nav.screen-0_right_content ul {
     background-color: #3b1f2b;
 }
  .screen-2__bottom--left--text{
-    padding-top: 10vh;
-    padding-left:5vh;
+    padding-top: 155px;
+    padding-left:80px;
+    padding-right: 145px;
  }
 .screen-2__bottom--left--text li{
   background-image: url(img/orange_cheked_icon.png);
   background-repeat:no-repeat;
   padding-left: 30px;
   list-style: none;
-  font-size: 16px;
-  line-height: 40px;
+  font-size: 14px;
+  line-height: 30px;
 } 
 
 .screen-2__bottom--right  {
@@ -288,4 +314,44 @@ input.control {
   border: none;
   background: none;
   border-bottom: 1px solid red;
+}
+.footer {
+  display: flex;
+}
+
+.footer .divider {
+  flex: 1;
+  background: red;
+  padding-top: 200px;
+}
+
+.footer .right {
+  width: 200px;
+}
+
+.footer .left {
+  width: 100px;
+}
+
+.footer .right {
+  display:flex;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+}
+
+.footer .right {
+  width: 350px;
+
+
+}
+
+.footer .left {
+  width: 320px;
+}
+
+.footer .right {
+  display:flex;
+  flex-direction: column;
 }

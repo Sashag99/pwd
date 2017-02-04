@@ -79,7 +79,7 @@ nav.header ul li a {
   width: 50vh;
 }
 .screen-0__content { 
-  padding-top: 205px;
+  padding-top: 150px;
   padding-left: 130px;
 }
 .screen-0_right_content{
@@ -111,8 +111,8 @@ nav.screen-0_right_content ul {
 }
 .screen-1_footer,
 .screen-1_header{
-  height: 250px;
   display: flex;
+  margin-top:40px;
 }
 .screen-1_content{
   display: flex;
@@ -122,6 +122,7 @@ nav.screen-0_right_content ul {
 .screen-1_header p{
   font-size: 48px;
   margin: auto;
+  margin-bottom:100px;
 }
 
 .screen-1_content_1,
@@ -186,6 +187,7 @@ nav.screen-0_right_content ul {
   padding-left: 50px;
   background-image: url(img/quote_icon.png);
   background-repeat: no-repeat;
+  height:100px;
 }
 /****SCREEN-2*****/
 .screen-2 .col {

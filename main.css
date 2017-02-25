@@ -100,6 +100,14 @@ nav.screen-0_right_content ul li a{
 nav.screen-0_right_content ul {
   list-style: none;
 }
+#btn_3{
+  width: 200px;
+  height: 75px;
+  text-align:center;
+  border-radius: 37%; 
+  cursor: pointer;
+  user-select: none;
+}
 /****SCREEN-1*****/
 .screen-1{
   display: flex;
@@ -188,6 +196,16 @@ nav.screen-0_right_content ul {
   background-image: url(img/quote_icon.png);
   background-repeat: no-repeat;
   height:100px;
+} #btn_2{
+  position: absolute;
+  width: 200px;
+  height: 75px;
+  text-align:center;
+  border-radius: 37%; 
+  border: 5px solid red;
+  margin-left: 700px;
+  cursor: pointer;
+  user-select: none;
 }
 /****SCREEN-2*****/
 .screen-2 .col {
@@ -314,11 +332,21 @@ margin-top: 50px;
   color: red;
 }
 .screen-3__content_bottom p{
-  font-size: 14px;
+  font-size: 17px;
   padding-right: 500px;
   padding-left: 200px;
 }
-
+#btn_1{
+  position: absolute;
+  width: 200px;
+  height: 75px;
+  text-align:center;
+  border-radius: 37%; 
+  border: 5px solid red;
+  margin-left: 700px;
+  cursor: pointer;
+  user-select: none;
+}
 /******FOOTER******/
 .footer {
   color: white;
@@ -375,7 +403,7 @@ input.control {
 }
 
 .footer .right {
-  width: 900px;  
+  width: 100%;  
 }
 .footer .left li{
   list-style: none;
@@ -392,7 +420,7 @@ input.control {
   font-size: 33px;
 }
 .footer .left {
-  width: 900px;
+  width: 100%;
 }
 
 .footer .right {

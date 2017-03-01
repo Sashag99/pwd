@@ -8,5 +8,5 @@ btn_2.addEventListener('click',function(){
 });
 var btn_3 = document.getElementById('btn_3');
 btn_3.addEventListener('click',function(){
-  alert('бесплатная  коучинг-сессия будет проведена 27.02.2017')
+  alert('бесплатная  коучинг-сессия будет проведена 05.03.2017')
 });

@@ -104,8 +104,8 @@ nav.screen-0_right_content ul {
   width: 200px;
   height: 75px;
   text-align:center;
-  border-radius: 37%; 
-  color: red;
+  border-radius: 150px 100px; 
+  color: #FC7E72;
   font-weight: bold ;
   cursor: pointer;
   user-select: none;
@@ -203,11 +203,19 @@ nav.screen-0_right_content ul {
   width: 200px;
   height: 75px;
   text-align:center;
-  border-radius: 37%; 
-  border: 5px solid red;
+  border-radius: 150px 100px; 
+  border: 5px solid #f0756d;
   margin-left: 700px;
   cursor: pointer;
   user-select: none;
+}
+.screen-1_content_1 p1{
+  font-size: 31px;
+  font-weight: bold;
+}
+.screen-1_content_2 p1{
+  font-size: 31px;
+  font-weight: bold;
 }
 /****SCREEN-2*****/
 .screen-2 .col {
@@ -343,8 +351,8 @@ margin-top: 50px;
   width: 200px;
   height: 75px;
   text-align:center;
-  border-radius: 37%; 
-  border: 5px solid red;
+  border-radius: 150px 100px; 
+  border: 5px solid #f0756d;
   margin-left: 700px;
   cursor: pointer;
   user-select: none;
@@ -355,7 +363,7 @@ margin-top: 50px;
   padding-top: 200px;
   margin-top: -100px;
   height: 500px;
-  background: #202220;
+  background: #333;
   z-index: 2;
 }
 
@@ -387,15 +395,6 @@ input.control {
   background: red;
   padding-top: 200px;
 }
-
-.footer .right {
-  width: 50%;
-}
-
-.footer .left {
-  width: 50%;
-}
-
 .footer .right {
   display:flex;
   flex-direction: column;
@@ -406,6 +405,9 @@ input.control {
 
 .footer .right {
   width: 100%;  
+}
+.footer .left {
+  width: 100%;
 }
 .footer .left li{
   list-style: none;
@@ -421,10 +423,6 @@ input.control {
   padding-top: 100px;
   font-size: 33px;
 }
-.footer .left {
-  width: 100%;
-}
-
 .footer .right {
   display:flex;
   flex-direction: column;
